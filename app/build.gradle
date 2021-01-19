@@ -9,7 +9,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.example.app_template_java"
+        applicationId "com.example.androidchart"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.getVersionCode()
@@ -52,6 +52,9 @@ def rxJavaVersion = "3.0.9"
 def rxAndroidVersion = "3.0.0"
 
 dependencies {
+
+    // MPAndroidChart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     // RxJava and RxAndroid
     implementation "io.reactivex.rxjava3:rxjava:$rxJavaVersion"

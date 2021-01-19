@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="com.example.app_template_java.views.SplashScreenFragment"
+        android:name="com.example.androidchart.views.SplashScreenFragment"
         android:label="frg_splashcreen"
         tools:layout="@layout/frg_splashscreen">
 
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.app_template_java.views.MainFragment"
+        android:name="com.example.androidchart.views.MainFragment"
         android:label="frg_main"
         tools:layout="@layout/frg_main"/>
 
